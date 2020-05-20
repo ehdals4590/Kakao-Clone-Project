@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/706be9d9e5.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | Kakao Clone</title>
   </head>
   <body>
@@ -22,10 +23,11 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <a href="more.html">
+        <a href="more.html" class="header__back-btn">
           <i class="fas fa-angle-left fa-2x"></i>
         </a>
-
+      </div>
+      <div class="header__header-column">
         <h1 class="header__title">Settings</h1>
       </div>
 
@@ -36,7 +38,7 @@
       </div>
     </header>
     <main class="settings">
-      <section class="settings__topsection">
+      <section class="settings__sections">
         <ul class="settings__list">
           <li class="settings__setting">
             <span class="settings__icon">
@@ -58,7 +60,7 @@
           </li>
         </ul>
       </section>
-      <section class="settings__section">
+      <section class="settings__sections">
         <ul class="settings__list">
           <li class="settings__setting">
             <span class="settings__icon">
@@ -111,5 +113,8 @@
         </ul>
       </section>
     </main>
+    <div class="big-screen">
+      <span class="big-screen__text">Please make your screen small.</span>
+    </div>
   </body>
 </html>

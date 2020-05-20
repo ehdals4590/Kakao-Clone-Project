@@ -1,0 +1,18 @@
+.friends .friends__header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0.938);
+}
+.friends .friends__friendsbday {
+  padding-top: 20px;
+}
+.friends .friends__favorite {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(248, 248, 248, 0.938);
+  border-top: 1px solid rgba(248, 248, 248, 0.938);
+  margin: 20px 0px;
+}
+
+.friends__title {
+  font-size: 12px;
+  opacity: 0.6;
+}

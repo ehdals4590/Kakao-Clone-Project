@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/706be9d9e5.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -39,39 +40,55 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
-          <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-          <div class="friend__content">
-            <span class="friend__name"> 동민</span>
-            <span class="friend__status">코딩 배우는 중!</span>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> 동민</span>
+              <span class="friend__status">코딩 배우는 중!</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span
+                >Rain - GGang
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
           </div>
         </div>
       </header>
       <div class="friends__friendsbday">
-        <h5 class="friendsbday-title">Friends with Birthdays</h5>
+        <h5 class="friends__title">Friends with Birthdays</h5>
         <div class="friends__friend friend">
-          <img src="images/avatar.jpg" class="g-avatar" />
-          <div class="friend__content">
-            <span> View more birthdays </span>
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> View more birthdays </span>
+            </div>
           </div>
         </div>
       </div>
       <ul class="friends__favorite">
-        <h5 class="favorite__title">Favorites</h5>
+        <h5 class="friends__title">Favorites</h5>
         <li class="friends__friend friend">
-          <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-          <div class="friend__content">
-            <span class="friend__name">승민</span>
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">승민</span>
+            </div>
           </div>
         </li>
       </ul>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 189</h5>
         <li class="friends__friend friend">
-          <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-          <div class="friend__content">
-            <span class="friend__name"> 동민</span>
-            <span class="friend__status">코딩 배우는 중!</span>
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">엄마</span>
+              <span class="friend__status">좋은 하루~</span>
+            </div>
           </div>
         </li>
       </ul>
@@ -100,5 +117,8 @@
         </li>
       </ul>
     </nav>
+    <div class="big-screen">
+      <span class="big-screen__text">Please make your screen small.</span>
+    </div>
   </body>
 </html>
