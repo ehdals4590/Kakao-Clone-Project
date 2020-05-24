@@ -16,3 +16,13 @@
   font-size: 12px;
   opacity: 0.6;
 }
+
+.friends__friendsbday .friend__column i {
+  font-size: 26px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.friends__list li {
+  margin: 5px 0px;
+}

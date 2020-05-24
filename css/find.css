@@ -30,3 +30,11 @@
   opacity: 0.7;
   margin-bottom: 10px;
 }
+.find__header i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.find__recommended i {
+  cursor: pointer;
+}

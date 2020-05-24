@@ -13,12 +13,10 @@
   padding: 0;
   padding-top: 150px;
 }
-.chats-body .header,
-.chats-body .status-bar {
-}
+
 .chats-body {
   background-image: url("../images/chat-bg.png");
-  min-height: 500vh;
+  min-height: 200vh;
 }
 .chat__write-container {
   position: fixed;
@@ -45,7 +43,7 @@
   position: absolute;
   right: 10px;
 }
-@keyframes float {
+/*@keyframes float {
   0% {
     transform: translateY(-100px);
     box-shadow: 0 13px 27px -12px rgba(50, 50, 93, 0.25),
@@ -62,7 +60,7 @@
     box-shadow: 0 13px 27px -12px rgba(50, 50, 93, 0.25),
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   }
-}
+}*/
 
 .chat__write {
   margin: 0 auto;
@@ -79,13 +77,13 @@
 
 .chat__write:focus {
   outline: none;
-  width: 80%;
+  width: 90%;
 
   transform: translateY(-100px);
   border-radius: 40px;
   box-shadow: 0 13px 27px -12px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-  animation: float 3s linear infinite forwards;
+  /*animation: float 3s linear infinite forwards;*/
 }
 .chat__icon {
   font-size: 18px;
@@ -97,6 +95,10 @@
 
 .chat__write i {
   font-size: 22px;
+}
+
+.chat__write-icon {
+  margin-left: 5px;
 }
 
 .chat__write-column:nth-child(2) {
@@ -114,7 +116,8 @@
 }
 
 .chat__messages .chat__timestamp {
-  background-color: white;
+  background-color: rgb(139, 136, 136);
+  color: white;
   font-size: 14px;
   padding: 5px 10px;
   border-radius: 10px;
@@ -142,8 +145,10 @@
 .incoming-message img {
   width: 50px;
   height: 50px;
-  border-radius: 15px;
+  border-radius: 50%;
   margin-right: 15px;
+  box-shadow: 2px 2px 10px rgb(224, 223, 223);
+  cursor: pointer;
   animation: spin 1s linear infinite;
 }
 
@@ -173,7 +178,7 @@
 
 .incoming-message .message__bubble {
   border-top-left-radius: 0px;
-  background-image: linear-gradient(#e8cbc0, #e8cbc0);
+  background-image: linear-gradient(#7c97ee, #7c97ee);
   color: white;
 }
 
@@ -181,7 +186,7 @@
   border-top-right-radius: 0px;
 }
 
-@keyframes incomingAnim {
+/*@keyframes incomingAnim {
   from {
     opacity: 0;
     transform: translateX(-100px);
@@ -208,4 +213,4 @@
 
 .outgoing-message {
   animation: outgoingAnim 1s ease-out forwards;
-}
+}*/

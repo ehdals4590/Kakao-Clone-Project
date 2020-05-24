@@ -3,7 +3,7 @@
   margin: 30px 0px;
   margin-left: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .more__btn-list .more__btn,
@@ -41,7 +41,7 @@
 }
 
 .suggestion .suggestion__icon {
-  background-color: #fce006;
+  background-color: #f8d01f;
   padding: 10px;
   border-radius: 10px;
   display: flex;
@@ -49,6 +49,11 @@
 }
 
 .suggestion__icon i {
-  font-size: 25px;
+  font-size: 22px;
   color: white;
+}
+
+.more__header i {
+  cursor: pointer;
+  font-size: 26px;
 }
